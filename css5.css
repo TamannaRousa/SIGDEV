@@ -1,0 +1,11 @@
+div{
+    margin: 0 auto;
+    height: 400px;
+    width: 700px;
+    background-color: aquamarine;
+    background-image: url(cssPhoto.jpg);
+    background-size: cover ;
+    /* Contain-same image,no crop,no contain->image repeat 
+       Cover- no scale only crop
+       Auto- stretch */
+}

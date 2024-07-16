@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    /* 1.static position - top,ryt,bottom,left have no effect */
+    position: static;
+    /* these are offset/shift but these will not work as the position is static*/
+    top: 100px;
+    left: 100px;
+}
+
+/* 2.relative- offset(l,r,t,b) is relative to itself(change acc to its previous position) 
+                based on the values of top, right,bottom &left */
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* absolute- element is removed from the normal document flow,
+ & no space is created(means if another div/element created will take its place)for the element in the page layout.
+  positioned relative to its closest poritioned ancestor(whose position is not static, if any;
+ otherwise, it is placed to the initial containing block. */
+ #absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ }
+
+ /* Fixed- fixed at the screen after scrolling also.element is removed from the normal document flow, & no space for element in the page layout.
+        Positioned relative to the initial containing block(body) established by the viewport. It has some exceptions */
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

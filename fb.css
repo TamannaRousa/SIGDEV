@@ -1,0 +1,16 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: #1b74e4;
+}
+
+#buttonSearch{
+    background-color: black;
+    color: white;
+}
+
+.accountbtn{
+    background-color: aqua;
+}

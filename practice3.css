@@ -1,0 +1,25 @@
+#firstQuesdiv{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-right: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.two{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+li{
+display: inline;
+}

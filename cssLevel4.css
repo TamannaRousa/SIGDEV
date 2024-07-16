@@ -1,0 +1,29 @@
+/* Alpha Channel - sets the opacity of a color. Ranges from 0-1 where 0 is hidden .here nothing will affect the element when alphaOpacity =00*/
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 234, 0, 0.707);
+    margin-bottom: 10px;
+    /* to place element in center : shortcut */
+    margin: 0 auto;
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+    transition: margin-top 2s ease-in 1s; 
+}
+
+ /* Opacity - sets opacity of the element not color. Ranges from 0-1. here element will be affected when opacity is 0 everything disappears */
+#opacity{
+    background-color: #ffa511 ;
+    /* opacity: 0; */
+}
+
+/* CSS Transitions - transitions enable us to define transiton btw two states of an element */
+    /* 1 state changes by hover */
+div:hover{
+    background-color: black;
+    margin-top: 400px;
+    /* border-radius: 50%; */
+}
+    /* 2.Transition Shorthand --> bgcolor|duration|timing-function|delay */
+
+/* CSS TRANSFORM - Lets us to rotate,scale,skew,translate an element */

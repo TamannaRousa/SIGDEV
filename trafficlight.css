@@ -1,0 +1,38 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#first{
+    background-color: red;
+}
+#second{
+    background-color: yellow;
+}
+#third{
+    background-color:green;
+}
+
+h2{
+    display: inline;
+}
+
+span{
+    display: inline;
+    border: 2px solid black;
+    /* background-color: chartreuse; */
+    padding: 12px;
+    margin: 20px;
+}
+
+/* units-->relative [outer div & inner div]-->%[whole] & em[multiple 2em] & rem[no snowfall drawback like in em bcoz here property is set acc to root element. for html document root element is <html>] */

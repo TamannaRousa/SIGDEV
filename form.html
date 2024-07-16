@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="/server">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" id="username" placeholder="Enter username" name="username">
+        </div>
+       <br>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="Enter password" name="password" />
+        </div>
+
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I'm 18+</label>
+        <br>
+        <!-- name is same so all are grouped -->
+        <div>Course :
+            <input type="radio" name="course" id="btech" value="btech">
+            <label for="btech">Btech</label>
+            <input type="radio" name="course" id="bca" value="bca">
+            <label for="bca">BCA</label>
+            <input type="radio" name="course" id="bcom" value="bcom">
+            <label for="bcom">Bcom</label>
+            <input type="radio" name="course" id="ba" value="ba">
+            <label for="ba">BA</label>
+        </div>
+        <br>
+        <div>Courses :
+            <input type="checkbox" id="maths" name="subjects" />
+            <label for="maths">Maths</label>
+            <input type="checkbox" id="sst" name="subjects" />
+            <label for="sst">Sst</label>
+            <input type="checkbox" id="bio" name="subjects" />
+            <label for="bio">Biology</label>
+            <input type="checkbox" id="chem" name="subjects" />
+            <label for="chem">Chemistry</label>
+        </div>
+        <br>
+        <div>
+            <!-- dropdown in HTML -->
+            Choose your profession :
+            <select name="profession" id="profession">
+                <option value="teach">Teacher</option>
+                <option value="stu" selected>Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <br>
+        <label for="volume">Select your volume : </label>
+        <input type="range" id="volume" min="0" max="100" name="volume" step="10">
+        <br>
+        <br>
+        <label for="feedback">Please give your valuable feedback : </label>
+        <textarea  id="feedback" name="feedback" rows="1" cols="20" placeholder="Enter your feedback"></textarea>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- <input type="button" value="submit"> -->
+        <!-- not a correct way -->
+        <!-- placeholder attribute -->
+        <!-- id=unique name connect to label-->
+        <!-- name- to access at backend -->
+    </form>
+    <br>
+    <form action="https://www.google.com/search?">
+        <input type="text" placeholder="search in google" name="q" />
+        <button>Search</button>
+    </form>
+
+</body>
+
+</html>
