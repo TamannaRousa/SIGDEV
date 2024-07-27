@@ -33,6 +33,7 @@ span{
     /* background-color: chartreuse; */
     padding: 12px;
     margin: 20px;
+    background-color: aqua;
 }
 
 /* units-->relative [outer div & inner div]-->%[whole] & em[multiple 2em] & rem[no snowfall drawback like in em bcoz here property is set acc to root element. for html document root element is <html>] */

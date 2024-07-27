@@ -1,0 +1,45 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 5%;
+}
+
+.alph{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    border-radius: 5%;
+    font-size: 30px;  
+    text-align: center; 
+}
+
+#parent{
+    height: 50px;
+    width: 900px;
+    border: 2px solid black;
+    background-color: pink;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 15px;
+    /* justify-content: start; */
+    /* flex-direction: row;   */
+    align-content: center;
+}
+
+.child{
+    height: 50px;
+    width: 80px;
+    /* text-align: center; */
+    font-size: 24px;
+    margin-left: 5px;
+    /* padding: 10px; */
+    line-height: 50px;
+}

@@ -5,7 +5,9 @@ div{
     background-color: aquamarine;
     background-image: url(cssPhoto.jpg);
     background-size: cover ;
+    color: white;
     /* Contain-same image,no crop,no contain->image repeat 
        Cover- no scale only crop
-       Auto- stretch */
+       Auto- stretch(blur) */
 }
+
