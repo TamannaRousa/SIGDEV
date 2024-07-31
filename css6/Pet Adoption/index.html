@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        h2{
+            color: goldenrod;
+        }
+        span{
+            color: goldenrod;
+        }
+       
+        .card{
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 25px;
+            margin: 10px;
+            display: inline-block;
+            padding: 10px;
+        }
+        img{
+            border-radius: 25px;
+            width:100%
+        }
+        #pets{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @media (max-width:375px){
+            #pets{
+                flex-wrap: wrap;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <h2><i>adoptme.com</i></h2>
+    <h1>Adopt a <span>Pet</span> Today</h1>
+    <br/><br/>
+    <div id="pets">
+       <div class="card">
+        <img src="dog.jpg" alt="jerry" />
+        <h3>Meet Jerry</h3>
+        <p>
+            Jerry is a charimg friendly dog with a heart
+             of gold lokk cchcc dchcjhcc dybvy hbv Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit.
+             Aut fugiat est placeat ad, quisquam dicta minima 
+            dolor sit amet consectetur adipisicing elit. 
+        </p>
+       </div>
+       <div class="card">
+        <img src="cat.jpg" alt="tom" />
+        <h3>Meet Tom</h3>
+        <p>
+            Tom is a charimg friendly cat with a heart
+             of gold lokk cchcc dchcjhcc dybvy hbv Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit.
+             Aut fugiat est placeat ad, quisquam dicta minima 
+            dolor sit amet consectetur adipisicing elit. 
+        </p>
+       </div>
+    </div>
+</body>
+</html>
+<!-- z-index -> until position of an element is static or default we cant use z-index for that .it is used to show one element over other when overlapp. -->
