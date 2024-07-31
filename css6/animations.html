@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATIONS</title>
+    <style>
+
+        .box{
+            height: 100px;
+            width: 300px;
+            background-color: pink;
+            animation-name: fontAnimation;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            transition-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        h1{
+            background-color: yellow;
+            border: 2px solid black;
+        }
+        @keyframes fontAnimation{
+            from{
+                width: 10px;
+                font-size: 20px;
+                background-color:  aqua;
+            }
+            to{
+                width: 300px;
+                font-size: 40px;
+                background-color: yellow;
+            }
+        }
+        @media(min-width:900px){
+            h1{
+                background-color: red;
+                color: white;
+            }
+        }
+        @media(max-width:300px){
+            h1{
+                background-color: pink;
+                color: black;
+            }
+        }
+        @media(min-width:200px) and (max-width:300px){
+            h1{
+                background-color: chartreuse;
+            }
+        }
+        @media(orientation:landscape){
+            h1{
+                background-color: aquamarine;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>BAM BAM BHOLE</h1>
+    <h1>animations</h1>
+    <!-- animation shorthand - name duration timing delay count dirn -->
+    <div class="box">This is a box</div>
+</body>
+</html>
+<!-- @media(width:400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+} -->
