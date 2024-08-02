@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .container{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bootstrap demo</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo temporibus sint ullam in expedita.
+            Veniam nemo voluptatibus illo quam sit, delectus facere magni placeat praesentium at, atque repellendus.
+            Quod, obcaecati.</p>
+    </div> 
+  <button>click me</button>
+    <button class="btn btn-success" >CLICK MEE</button>
+    <button class="btn btn-outline-secondary btn-lg" >CLICK MEE</button>
+    <h4>Notificatiom</h4>
+    <span class="badge  bg-primary">new</span> 
+
+  <h3>Notifications <span class="badge bg-primary">20+</span></h3>
+    <br/> 
+
+<!--NAVBAR -->
+    <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a href="#" class="nav-link">Home</a>
+            <a  href="#" class="nav-link">Contact </a>
+            <a href="#" class="nav-link">About</a>
+          </div></nav>
+<br/>
+    </div>
+    <button class="btn btn-primary">
+        Followers
+        <span class="badge bg-secondary ">100+</span>
+    </button>
+    <br/><div class="alert alert-danger">Download Failed! plz try again</div>
+    <div class="alert alert-success alert-dismissable">Congratulations! You have passed the test.
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <br/>
+    <!-- BUTTON GROUP -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
+<br/>
+<!-- CARD -->
+      <div class="card" style="width: 18rem;">
+        <img src="image.jpg" class="card-img-top">
+        <div class="card-body">
+         <h5 class="card-title">Photography</h5>
+         <p class="card-text">
+            It is an art to capture photos
+         </p>
+         <a href="#" class="btn btn-primary">Know more</a>
+        </div>
+      </div>
+<br/>
+      <!-- GRID : 12 column system(4+8/2+4+6 or manyy) -----/ fixed screen sizes & md small-->
+       <h2>grid system</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 bg-success">
+            one
+          </div>
+          <div class="col-md-8 bg-danger">
+            two
+          </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-4 col-xl-4 bg-success">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, at. Voluptate ad optio magnam facilis quam nobis esse, architecto explicabo incidunt? Nihil amet eveniet quos minima rerum assumenda ad neque?</div>
+            <div class="col-md-4 col-xl-4  bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio modi autem. Perferendis, animi quos facere saepe asperiores distinctio porro illo vitae corrupti, quam soluta necessitatibus dolorem itaque, commodi dignissimos.</div>
+            <div class="col-md-4 col-xl-4  bg-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non odio ut, similique iusto omnis sunt sit magni beatae delectus dolores repellendus voluptas ea nobis quod incidunt deleniti sed neque?</div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <h2>FORM</h2>
+        <form class="mb-3">
+            <label class="form-label" >Email</label>
+            <input type="text" class="form-control" placeholder="Email" id="email"/>
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="password" id="password/">
+            <label for="address" class="form-label" >Address</label>
+            <input type="text" class="form-control" id="address" placeholder="address">
+        </form>
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
