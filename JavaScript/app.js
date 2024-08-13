@@ -110,9 +110,9 @@ else{
 }
 
 //alerts & errors & warning  in JS
-alert("Warning!");
-console.error("ERROR !");
-console.warn("WARNING!");
+// alert("Warning!");
+// console.error("ERROR !");
+// console.warn("WARNING!");
 
 //prompt
 let firname = prompt("enter name");
@@ -154,3 +154,58 @@ msg.indexOf("l");
 msg.slice(1,6);
 msg.replace("love","do");
 msg.repeat(3);
+
+//array - type object not array in JS
+let nums = ["tamanna",2,3,4,5];
+console.log(nums);
+nums[0][1];//tamanna->a
+nums.push();
+nums.pop();
+console.log(nums);
+//array methods - indexOf & concat(arr1.concat(arr2)) & reverse(arr.reverse()) & ()yes/no &
+
+//loops
+for(let i=1;i<=5;i++){
+    console.log(i);
+}
+
+// Fvrt Movie
+const favMovie = "Housefull";
+let guess = prompt("guess my fvrt movie");
+while((guess!=favMovie) && (guess!='quit')){
+    if (guess!='quit'){
+        console.log("you quit");
+    }
+    console.log("WRONG!!! plz try again");
+    guess = prompt("try again");
+}
+
+if(favMovie == guess){
+    console.log("CORRECT!!!!!");
+}
+
+
+array
+let fruit = ["mango","banana","papaya","litchi","orange"];
+
+for(let i=0; i<fruit.length;i++){
+    console.log(i, fruit[i]);
+}
+
+// Nested loop with nested arrays
+let heroes = [ ["ironman","spider","thor","captainA"],
+               ["suprman","flash","wonder woman"]];
+
+for(let i=0;i,heroes.length;i++){
+    console.log(i, heroes[i]);
+    for(let j=0; j<heroes[i].length;j++){
+        console.log(`j=${j}, ${heroes[i][j]}`);
+    }
+}
+
+//
+let fruits = ["mango", "banana", "orange"];
+
+for(fruit of fruits){
+    console.log(fruit);
+}
